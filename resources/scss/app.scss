@@ -27,3 +27,7 @@ $light: #787879;
     background-image: url(../img/jumbotron.jpg);
     background-size: cover;
 }
+
+.card img{
+    max-height: 160px;
+}
