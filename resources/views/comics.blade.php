@@ -2,8 +2,8 @@
 
 @section('content')
 
-    <section class="bg-dark">
-        <div class="container">
+    <section class="bg-dark pb-4">
+        <div class="container text-center">
 
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-xl-6 g-4">
                 @foreach($comics as $comic)
@@ -20,6 +20,8 @@
                 </div>
                 @endforeach
             </div>
+
+            <button type="submit" class="btn btn-primary text-uppercase rounded-0 px-5 fw-semibold">Load More</button>
         </div>
     </section>
 
