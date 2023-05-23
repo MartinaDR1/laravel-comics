@@ -1,0 +1,23 @@
+@import '~bootstrap/scss/bootstrap';
+
+$primary:#ffffff;
+$dark: #1c1c1c;
+$accent: #0282f9;
+$light: #787879;
+
+.top_header{
+    height: 25px;
+
+    li{
+        font-size: 12px;
+    }
+}
+.searchBar{
+    width: 110px;
+    border-bottom:  1px solid $accent;
+}
+
+.active{
+    color: $accent ;
+    border-bottom: 4px solid $accent;
+}
