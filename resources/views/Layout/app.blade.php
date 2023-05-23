@@ -25,6 +25,8 @@
     </main>
 
     @include('partials.banner')
+    @include('partials.footer')
+
 </body>
 
 </html>

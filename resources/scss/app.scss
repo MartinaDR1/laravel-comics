@@ -31,3 +31,9 @@ $light: #787879;
 .card img{
     max-height: 160px;
 }
+
+.footer_top{
+    background-image: url('../img/dc-logo-bg.png'), url('../img/footer-bg.jpg');
+    background-repeat: no-repeat, repeat-x;
+    background-position: 70% 50%;
+}
