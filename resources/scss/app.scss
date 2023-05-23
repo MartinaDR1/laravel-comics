@@ -21,3 +21,9 @@ $light: #787879;
     color: $accent ;
     border-bottom: 4px solid $accent;
 }
+
+.jumbotron{
+    height: 400px;
+    background-image: url(../img/jumbotron.jpg);
+    background-size: cover;
+}
