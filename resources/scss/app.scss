@@ -5,6 +5,15 @@ $dark: #1c1c1c;
 $accent: #0282f9;
 $light: #787879;
 
+.bg_price{
+    background-color: #55ba59;
+}
+
+.txt_price{
+    color: #91e77f;
+}
+
+
 .top_header{
     height: 25px;
 
@@ -37,3 +46,4 @@ $light: #787879;
     background-repeat: no-repeat, repeat-x;
     background-position: 70% 50%;
 }
+
