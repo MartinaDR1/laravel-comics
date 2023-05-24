@@ -14,17 +14,23 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $banner = config('app_banner_links');
+    $footer = config('app_footer_links');
+    return view('home', compact('banner','footer'));
 })->name('home');
 
 Route::get('/comics', function () {
     $comics = config('db');
-    return view('comics', compact('comics'));
+    $banner = config('app_banner_links');
+    $footer = config('app_footer_links');
+    return view('comics', compact('comics','banner','footer'));
 })->name('comics');
 
 Route::get('/details/{index}', function ($index) {
     $comics = config('db');
-    return view('details',  ['comic' => $comics[$index]]);
+    $banner = config('app_banner_links');
+    $footer = config('app_footer_links');
+    return view('details',['banner' => $banner, 'footer' => $footer, 'comic' => $comics[$index]]);
 })->name('details');
 
 

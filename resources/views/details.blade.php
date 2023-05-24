@@ -2,8 +2,11 @@
 
 @section('content')
     <!-- Todo aggiungere immagine -->
-    <div class="img">
-        
+    <div class="bg-primary">
+        <div class="blue_banner container ">
+
+            <img src="{{$comic['thumb']}}" class="cover" height="200">
+        </div>
     </div>
     <section>
         <div class="container py-5">
